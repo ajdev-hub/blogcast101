@@ -1,0 +1,9 @@
+name = "blogcast-app"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-03-01"
+
+# This section links your KV Cache to your backend functions
+[[kv_namespaces]]
+binding = "PODCAST_CACHE"
+id = "580386f317a64aec86cce9d559c8e1fd"
+preview_id = "<your-kv-namespace-preview-id-here>"
